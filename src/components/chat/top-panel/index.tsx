@@ -1,4 +1,12 @@
+import Actions from "./actions";
+import Profile from "./profile";
+
 const TopPanel = () => {
-  return <div className="w-full h-16 border-black border-2"></div>;
+  return (
+    <div className="flex flex-row justify-between w-full border-b-2 border-gray-500 py-1">
+      <Profile />
+      <Actions />
+    </div>
+  );
 };
 export default TopPanel;

@@ -3,7 +3,7 @@ import StupidLogo from "./logo";
 
 const Sidebar = () => {
   return (
-    <div className="border-2 border-black w-1/5 h-full">
+    <div className="border-r-2 border-gray-500 w-1/5 h-full flex flex-col">
       <StupidLogo />
       <ChatList />
     </div>
